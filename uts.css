@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+/* navbar start */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 4%;
+  background-color: cadetblue ;
+  border-bottom: 1px #15222C solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+
+  #judul {
+    background-color: rgb(0, 60, 13);
+    color: rgb(255, 246, 216);
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-bottom: 5px dotted ghostwhite;
+  }
+
+  body {
+    background-color: whitesmoke;
+    background: url(images/bc.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+  }
+
+  marquee {
+    height: 40px;
+    width: 100%;
+    color:  rgb(20, 83, 20);
+    border: 1px solid rgb(20, 83, 20);
+    font-size: 150%;
+  }
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(250, 255, 252)
+
+}
+
+.header {
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.menu h3 {
+  text-align: center;
+}
+
+.menu ul {
+  
+}
+  
+.header ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.container .header ul {
+  margin-left: -40px;
+}
+table tr td, table tr th {
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+  .media img {
+    display: block;
+    margin: 0 auto;
+    width: 460px;
+    height: 360px;
+    margin-bottom: 50px;
+  }     
+  #video {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 460px;
+  }
+  
+  h1{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(223, 192, 15);
+    color: #144507;
+
+}
+#class {
+    display: block;
+    margin: 0 auto;
+    width: 460px;
+    height: 360px;
+    margin-bottom: 50px;
+  }
+h2{
+  
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(175, 181, 0);
+
+}
+  .content {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  
+  #closing {
+    margin-bottom: 30px;
+  }
+  
+  .class{
+    width: 360px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  #video {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 460px;
+    text-align:center;
+  }
+  
+  #form {
+    padding: 20px;
+    background-color: rgb(255, 183, 0);
+    color: aliceblue;
+    border: 3px solid rgb(231, 16, 16);
+  }
+
+.footer{
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color:rgb(223, 192, 15);
+  color: #144507;
+
+}
+
+ /*CSS Icon */
+ .footer p {
+  color: rgb(252, 252, 252);
+  font-size: 16px;
+  letter-spacing: 3px;
+}
